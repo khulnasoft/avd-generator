@@ -91,15 +91,15 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 ############################## social links ##############################
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/aquasecteam"
+link = "https://twitter.com/khulnasoft"
   
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/aquasecurity"
+link = "https://github.com/khulnasoft"
   
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/aquasecteam/"
+link = "https://www.linkedin.com/company/khulnasoft/"
 
 ################################ English Language ######################
 [Languages.en]
