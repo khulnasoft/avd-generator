@@ -105,10 +105,3 @@ jobs:
         
       - name: Install AWS CLI
         run: pip3 install awscli
-
-      - name: Sync changes to the bucket
-        run: aws s3 sync --no-progress --only-show-errors --size-only avd-repo/docs ${{ secrets.STAGING_AVD_BUCKET }}
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AVD_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AVD_SECRET_ACCESS_KEY }}
-          AWS_REGION: us-east-1

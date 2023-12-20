@@ -12,7 +12,7 @@ md-clean:
 	rm -f ./generator
 
 md-clone-all:
-	# git clone https://github.com/aquasecurity/avd.git avd-repo/
+	# git clone https://github.com/khulnasoft/avd.git avd-repo/
 	git clone https://github.com/aquasecurity/vuln-list.git avd-repo/vuln-list
 	git clone https://github.com/aquasecurity/vuln-list-nvd.git avd-repo/vuln-list-nvd
 	git clone https://github.com/aquasecurity/kube-hunter.git avd-repo/kube-hunter-repo

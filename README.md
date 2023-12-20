@@ -5,7 +5,7 @@
 This is the page generator component of AVD
 
 ### Generated Website
-https://github.com/aquasecurity/avd
+https://github.com/khulnasoft/avd
 
 ### Building
 Note: Set `baseURL="/"` [here](https://github.com/khulnasoft/avd-generator/blob/main/config.toml#L1-L4) before proceeding.
