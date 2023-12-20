@@ -267,7 +267,7 @@ It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS
 ### References  {.with_icon .references}
 - https://github.com/CanonicalLtd/subiquity/commit/7db70650feaf513d7fb6f1ca07f2d670a0890613
 
-<!--- Add Aqua content below --->`,
+<!--- Add Khulnasoft content below --->`,
 		},
 		{
 			name: "happy path with custom content",
@@ -367,7 +367,7 @@ foo Description
 - https://foo.bar.baz.com
 - https://baz.bar.foo.org
 
-<!--- Add Aqua content below --->
+<!--- Add Khulnasoft content below --->
 ---
 		### foo heading
 		bar content`,
@@ -404,7 +404,7 @@ draft: false
 ---
 ### Description
 In ih264d_init_decoder of ih264d_api.c, there is a possible out of bounds write due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation Product: Android Versions: Android-8.0, Android-8.1, Android-9, and Android-10 Android ID: A-142602711
-<!--- Add Aqua content below --->
+<!--- Add Khulnasoft content below --->
 ---
 ### foo heading
 bar content`,
@@ -421,7 +421,7 @@ draft: false
 ---
 ### Description
 In ih264d_init_decoder of ih264d_api.c, there is a possible out of bounds write due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation Product: Android Versions: Android-8.0, Android-8.1, Android-9, and Android-10 Android ID: A-142602711
-<!--- Add Aqua content below --->
+<!--- Add Khulnasoft content below --->
 
 
 `,
@@ -547,7 +547,7 @@ An attacker may use the contents of error messages to help launch another, more 
 ### References  {.with_icon .references}
 - https://source.android.com/security/bulletin/2020-01-01
 
-<!--- Add Aqua content below --->`, string(b))
+<!--- Add Khulnasoft content below --->`, string(b))
 			}
 		}
 	})
@@ -657,7 +657,7 @@ An attacker may use the contents of error messages to help launch another, more 
 ### References  {.with_icon .references}
 - https://source.android.com/security/bulletin/2020-01-01
 
-<!--- Add Aqua content below --->
+<!--- Add Khulnasoft content below --->
 ---
 ### foo heading
 bar content`, string(b))

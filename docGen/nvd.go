@@ -493,7 +493,7 @@ func ReservedPostToMarkdown(rpi ReservedPage, outputFile *os.File) error {
 func GetCustomContentFromMarkdown(fileName string) string {
 	b, _ := ioutil.ReadFile(fileName)
 
-	content := strings.Split(string(b), `<!--- Add Aqua content below --->`)
+	content := strings.Split(string(b), `<!--- Add Khulnasoft content below --->`)
 	switch len(content) {
 	case 0, 1:
 		return ""
@@ -579,7 +579,7 @@ ubuntu_severity: "{{.Vulnerability.UbuntuCVSSInfo.Severity | upper | default "N/
 ### References  {.with_icon .references}{{range $element := .Vulnerability.References}}
 - {{$element}}{{end}}
 
-<!--- Add Aqua content below --->`
+<!--- Add Khulnasoft content below --->`
 
 const reservedPostTemplate = `---
 title: "{{.ID}}"

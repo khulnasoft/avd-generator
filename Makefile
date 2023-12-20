@@ -57,7 +57,7 @@ hugo-clean:
 
 hugo-generate: hugo-clean
 	cd avd-repo && hugo --destination=docs
-	echo "avd.aquasec.com" > avd-repo/docs/CNAME
+	echo "avd.khulnasoft.com" > avd-repo/docs/CNAME
 
 simple-host:
 	cd avd-repo && python3 -m http.server
@@ -73,4 +73,4 @@ build-all: md-clean md-build md-clone-all sync-all md-generate hugo-generate cop
 	echo "Build Done, navigate to http://localhost:9011/ to browse"
 
 compile-theme-sass:
-	cd themes/aquablank/static/sass && sass avdblank.scss:../css/avdblank.css && sass avdblank.scss:../css/avdblank.min.css --style compressed
+	cd themes/khulnasoftblank/static/sass && sass avdblank.scss:../css/avdblank.css && sass avdblank.scss:../css/avdblank.min.css --style compressed
