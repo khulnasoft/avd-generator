@@ -61,7 +61,7 @@ How easy or hard adding a new source is largely dictated by the shape and struct
                 Url: "/compliance" // MenuID url
             }
         }, 
-        "kubernetes", // this is the icon to be used should match something in themes/aquablank/static/images/icon_tile_XXXXXX.png - in this case icon_tile_kubernetes.png
+        "kubernetes", // this is the icon to be used should match something in themes/khulnasoftblank/static/images/icon_tile_XXXXXX.png - in this case icon_tile_kubernetes.png
         true // whether it is a tile based menu - all child items will be in tiles when try
     )
     ```
@@ -73,7 +73,7 @@ How easy or hard adding a new source is largely dictated by the shape and struct
     | title     | The title shown in the menu and at the top of the page                                           |
     | id        | The ID of the check - be this an AVD or TRC ID or otherwise                                      |
     | source    | Where the AVD result will originate - defsec/appshield are Trivy for example                     |
-    | icon      | icon - as found in themes/aquablank/static/images/icons_XXX_XXXXXXXX.png                         |
+    | icon      | icon - as found in themes/khulnasoftblank/static/images/icons_XXX_XXXXXXXX.png                         |
     | severity  | If severity isn't relevant, us "n/a"                                                             |
     | category  | Which top level it goes under. currently one of [misconfig, compliance, runtime, vulnerabilties] |
 
