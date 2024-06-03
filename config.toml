@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://avd.aquasec.com/"
+baseURL = "https://avd.khulnasoft.com/"
 #baseURL = "/"
 
 # theme
@@ -8,7 +8,7 @@ baseURL = "https://avd.aquasec.com/"
 theme = "aquablank"
 
 # site title
-title = "Aqua Vulnerability Database"
+title = "KhulnaSoft Vulnerability Database"
 # google analytics
 googleAnalytics = "UA-63272154-14" # paste your analytics ID here. (Ex: UA-123-45)
 
@@ -32,7 +32,7 @@ paginate = 100
 ################################# navigation ################################
 [[menu.main]]
 name = "Aqua Blog"
-url = "https://blog.aquasec.com"
+url = "https://blog.khulnasoft.com"
 weight = 1
 
 # Dropdown menu
@@ -91,7 +91,7 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 ############################## social links ##############################
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/aquasecteam"
+link = "https://twitter.com/khulnasoft"
   
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
@@ -99,18 +99,18 @@ link = "https://github.com/aquasecurity"
   
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/aquasecteam/"
+link = "https://www.linkedin.com/company/khulnasoft/"
 
 ################################ English Language ######################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-copyright = "Aqua Vulnerability DB is a copyright © of Aqua Security Software Ltd."
+copyright = "KhulnaSoft Vulnerability DB is a copyright © of KhulnaSoft Security Software Ltd."
 
 # banner
 [Languages.en.params.banner]
-title = "Aqua Vulnerability Database"
+title = "KhulnaSoft Vulnerability Database"
 placeholder = "Search by Keyword or CVE-ID..."
 
 ################################ Markdown ###############################

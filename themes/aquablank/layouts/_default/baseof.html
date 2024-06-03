@@ -11,17 +11,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-	{{ .Scratch.Set "seo_title" "Aqua Security" }}
+	{{ .Scratch.Set "seo_title" "KhulnaSoft Security" }}
 	{{ .Scratch.Set "seo_description" "" }}
 
 	{{ if .IsHome }}
-	{{ .Scratch.Set "seo_title" "Vulnerability Database | Aqua Security" }}
+	{{ .Scratch.Set "seo_title" "Vulnerability Database | KhulnaSoft Security" }}
 	{{ .Scratch.Set "seo_description" "Detailed information and remediation guidance for vulnerabilities and weaknesses published by NVD, software vendor advisories, and analysis of container images." }}
 
 	{{ else }}
 
 	{{ .Scratch.Set "seo_title" .Title | safeHTML }}
-	{{ .Scratch.Add "seo_title" " | Vulnerability Database | Aqua Security" }}
+	{{ .Scratch.Add "seo_title" " | Vulnerability Database | KhulnaSoft Security" }}
 
 		{{ if eq "nvd_page" .Params.avd_page_type }}
 			{{ .Scratch.Set "seo_description" .Title | safeHTML }}
@@ -46,7 +46,7 @@
 	<meta name="description" content="{{ .Scratch.Get "seo_description" }}" />
 
 	<meta property="og:title" content="{{ .Scratch.Get "seo_title" }}" />
-	<meta property="og:site_name" content="Aqua Vulnerability Database" />
+	<meta property="og:site_name" content="KhulnaSoft Vulnerability Database" />
 	<meta property="og:description" content="{{ .Scratch.Get "seo_description" }}" />
 
 	<link rel="stylesheet" href='{{ "css/avdblank.min.css" | relURL }}'>
