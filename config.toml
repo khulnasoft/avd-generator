@@ -5,7 +5,7 @@ baseURL = "https://avd.khulnasoft.com/"
 
 # theme
 #theme = "dot"
-theme = "aquablank"
+theme = "khulnasoftblank"
 
 # site title
 title = "KhulnaSoft Vulnerability Database"
