@@ -1,4 +1,4 @@
-![Build Website](https://github.com/aquasecurity/avd-generator/workflows/Build%20Website/badge.svg)
+![Build Website](https://github.com/khulnasoft/avd-generator/workflows/Build%20Website/badge.svg)
 # AVD Generator
 
 ### Description
@@ -8,7 +8,7 @@ This is the page generator component of AVD
 https://github.com/aquasecurity/avd
 
 ### Building
-Note: Set `baseURL="/"` [here](https://github.com/aquasecurity/avd-generator/blob/main/config.toml#L1-L4) before proceeding.
+Note: Set `baseURL="/"` [here](https://github.com/khulnasoft/avd-generator/blob/main/config.toml#L1-L4) before proceeding.
 
 #### tl;dr for just the UI
 `make hugo-devel` and then navigate to `http://localhost:1313` to view the site.

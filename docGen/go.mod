@@ -1,4 +1,4 @@
-module github.com/aquasecurity/avd-generator
+module github.com/khulnasoft/avd-generator
 
 go 1.22.0
 

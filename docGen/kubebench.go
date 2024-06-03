@@ -10,8 +10,8 @@ import (
 
 	"path/filepath"
 
-	"github.com/aquasecurity/avd-generator/menu"
-	"github.com/aquasecurity/avd-generator/util"
+	"github.com/khulnasoft/avd-generator/menu"
+	"github.com/khulnasoft/avd-generator/util"
 	"gopkg.in/yaml.v3"
 )
 

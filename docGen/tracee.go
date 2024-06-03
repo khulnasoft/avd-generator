@@ -12,8 +12,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aquasecurity/avd-generator/menu"
-	"github.com/aquasecurity/avd-generator/util"
+	"github.com/khulnasoft/avd-generator/menu"
+	"github.com/khulnasoft/avd-generator/util"
 	"github.com/aquasecurity/tracee/pkg/rules/regosig"
 )
 
