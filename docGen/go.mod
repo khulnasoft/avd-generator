@@ -7,7 +7,7 @@ toolchain go1.22.2
 require (
 	github.com/Masterminds/semver v1.5.0
 	github.com/aquasecurity/tracee v0.7.0
-	github.com/aquasecurity/trivy v0.51.2-0.20240530103212-1c49ae957e7d
+	github.com/aquasecurity/trivy v0.51.2
 	github.com/aquasecurity/vuln-list-update v0.0.0-20191016075347-3d158c2bf9a2
 	github.com/leekchan/gtf v0.0.0-20190214083521-5fba33c5b00b
 	github.com/stretchr/testify v1.9.0
@@ -81,6 +81,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
+	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/samber/lo v1.39.0 // indirect
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
@@ -98,7 +99,5 @@ require (
 	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/utils v0.0.0-20231127182322-b307cd553661 // indirect
 	moul.io/http2curl v1.0.0 // indirect
-	mvdan.cc/sh/v3 v3.8.0 // indirect
 )
